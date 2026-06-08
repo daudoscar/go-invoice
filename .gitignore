@@ -1,0 +1,29 @@
+# --- Konfigurasi Sensitif (WAJIB) ---
+# API Key, kredensial, dan settingan pribadi — jangan pernah di-commit
+**/.env
+**/bot.json
+
+# --- Data Invoice (WAJIB) ---
+# Berisi PDF invoice asli milik customer
+invoices/
+
+# --- Hasil Build & Binary ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# --- Dependency ---
+vendor/
+
+# --- Editor & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Log ---
+*.log
